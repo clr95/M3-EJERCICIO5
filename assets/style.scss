@@ -1,0 +1,61 @@
+$Primary-color: #a7f0e6;
+$second-color: #22c09c;
+$tird-color: #0b6566;
+$forth-color: #599eae;
+$fifth-color: #6ebfba;
+body {
+  background-color: $tird-color;
+}
+h1 {
+  color: $Primary-color;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.brand, .nav-link{
+    color: $tird-color;
+    font-style: none;
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    border-radius: 2%;
+}
+
+.container{
+    width:100%;
+    margin: 0 auto;
+    background-color: #a7f0e6;
+    border-radius: 2%;
+}
+.row{width:100%}
+
+.perfil{
+    width:1.5rem;
+    margin:3%;
+    align-items: center;
+    text-align: end;
+}
+.col-sm-3{
+    text-align: left;
+}
+
+.element{
+    width: 100%;
+    height: 30rem;
+    align-items:center;
+    margin: 0 auto;
+    border-radius: 3%;
+}
+.row{
+    margin:2%;
+}
+.fila3{
+    width:30%;
+    margin-bottom:3%;
+    margin-right: 2%;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img.perfil{background-color: #a7f0e6;}
+.fila3-2{
+    width:18%;
+}
